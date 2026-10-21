@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Listagem de Notícias</title>
+</head>
+
+<body>
+
+    <img src="logo.jpg" alt="Logo"
+         style="width: 80px; height: auto; display: block;">
+
+    <h1>News</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="listagem.html">Listagem</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+    </nav>
+
+    <section>
+
+        <h2>Listagem de Notícias</h2>
+
+        <table style="border-collapse: collapse; width: 100%;">
+
+            <thead>
+                <tr>
+                    <th align="left">Categoria</th>
+                    <th align="left">Título</th>
+                    <th align="left">Ações</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Front-end</td>
+                    <td>A Apple encerra pregão avaliada em US$ 5 trilhões</td>
+                    <td>
+                        <a href="cadastro.html">Editar</a>
+                        |
+                        <a href="#"
+                           onclick="return confirm('Deseja apagar esta notícia?')">
+                           Apagar
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Back-end</td>
+                    <td>Estados americanos processam OpenAI</td>
+                    <td>
+                        <a href="cadastro.html">Editar</a>
+                        |
+                        <a href="#"
+                           onclick="return confirm('Deseja apagar esta notícia?')">
+                           Apagar
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Front-end</td>
+                    <td>Governo combate ligações abusivas de telemarketing</td>
+                    <td>
+                        <a href="cadastro.html">Editar</a>
+                        |
+                        <a href="#"
+                           onclick="return confirm('Deseja apagar esta notícia?')">
+                           Apagar
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Back-end</td>
+                    <td>FMI eleva previsão de crescimento global</td>
+                    <td>
+                        <a href="cadastro.html">Editar</a>
+                        |
+                        <a href="#"
+                           onclick="return confirm('Deseja apagar esta notícia?')">
+                           Apagar
+                        </a>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <p>
+            <a href="cadastro.html">Cadastrar nova notícia</a>
+        </p>
+
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Jonathan Alencar</p>
+    </footer>
+
+</body>
+
+</html>

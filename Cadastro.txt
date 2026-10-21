@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Notícias</title>
+</head>
+
+<body>
+
+    <img src="logo.jpg" alt="Logo" width="80">
+
+    <h1>News</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="listagem.html">Listagem</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+    </nav>
+
+    <h2>Cadastro de Notícias</h2>
+
+    <form>
+
+        Categoria:
+        <select name="categoria">
+            <option>Front-end</option>
+            <option>Back-end</option>
+        </select>
+
+        <br><br>
+
+        Título:
+        <input type="text" name="titulo">
+
+        <br><br>
+
+        Data:
+        <input type="date" name="data">
+
+        <br><br>
+
+        Texto:
+        <br>
+        <textarea name="texto" rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        Foto:
+        <input type="file" name="foto">
+
+        <br><br>
+
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+    <footer>
+        <p>Desenvolvido por Jonathan Alencar</p>
+    </footer>
+
+</body>
+</html>
